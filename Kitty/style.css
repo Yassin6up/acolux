@@ -2029,7 +2029,7 @@ p {
 }
 
 .testimonials-area .owl-dot.active {
-  background: #141414;
+  background: #a6ff00;
   border-color: transparent;
 }
 
@@ -2038,6 +2038,17 @@ p {
   padding: 10px 30px;
   border-radius: 6px;
   border: 1px solid #ebebeb;
+}
+
+.cercle{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cercle div{
+    width:100%;
+    display: grid ; 
+    place-content: center;
 }
 
 /* =============================
