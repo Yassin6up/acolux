@@ -53,7 +53,7 @@ function createParticles() {
 			shift: { x: mouseX, y: mouseY },
 			speed: 0.01+Math.random()*0.04,
 			targetSize: 1,
-			fillColor: '#' + (Math.random() * 0x404040 + 0xaaaaaa | 0).toString(16),
+			fillColor: '#' + (Math.random() * 0xa6ff00 + 0xfffff | 0).toString(16),
 			orbit: RADIUS*.5 + (RADIUS * .5 * Math.random())
 		};
 		

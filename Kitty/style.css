@@ -544,7 +544,9 @@ p {
 .dark.breakpoint-on .classy-navbar .classy-menu {
   background-color: #141414;
 }
-
+.install{
+    
+}
 .dark .classynav ul li.megamenu-item ul li a {
   border-bottom: none;
   font-weight: 400;
@@ -1931,10 +1933,14 @@ p {
 .testimonial-description {
   position: relative;
   z-index: 2;
+  height: 300px;
   background-color: transparent;
   padding: 70px 30px 30px 50px;
   border-radius: 6px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   -webkit-transform: scale(0.8);
   transform: scale(0.8);
   -webkit-transition-duration: 500ms;
@@ -1973,6 +1979,7 @@ p {
 
 .testimonial_image > img {
   border-radius: 50%;
+  aspect-ratio: 1/1;
   padding: 5px;
   background-color: #f2f4f8;
 }
@@ -1986,16 +1993,20 @@ p {
   font-size: 12px;
 }
 
-.center .testimonial-description > p,
-.center .star-icon span,
+
+
 .center .testimonial-description > h5 {
-  color: #fff;
+  color: #a6ff00;
+}
+.center .testimonial-description > p ul{
+    color:white !important;
 }
 
 .testimonial-description > h5 {
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 0;
+  color: white;
 }
 
 .star-icon {
