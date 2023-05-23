@@ -2047,6 +2047,7 @@ p {
 .partners-slides.owl-carousel .owl-item > img {
   background-color: #fff;
   padding: 10px 30px;
+  aspect-ratio: 2/1;
   border-radius: 6px;
   border: 1px solid #ebebeb;
 }
@@ -2084,7 +2085,10 @@ p {
   color: #fff;
   margin-bottom: 0;
 }
-
+#googleMap{
+  width: 60%;
+  
+}
 .cool_fact_icon > i {
   font-size: 48px;
   font-weight: 600;
