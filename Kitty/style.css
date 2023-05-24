@@ -77,7 +77,9 @@ body {
   background-color: #141414;
   overflow-x: hidden;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 h1,
 h2,
 h3,
@@ -87,7 +89,12 @@ h6 {
   font-family: "Raleway", sans-serif;
   color: #a6ff00;
 }
-
+.span{
+  font-size: 25px;
+  color: #a8ce3d;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+}
 #preloader {
   overflow: hidden;
   background-color: #fff;
@@ -417,11 +424,11 @@ p {
 }
 
 .bg-b-overlay1by3:after {
-  background-color: rgba(9, 132, 227, 0.95);
+  background-color: #a6ff00;
 }
 
 .bg-b-overlay1by4:after {
-  background-color: rgba(9, 132, 227, 0.6);
+  background-color: #a8ce3d;
 }
 
 .blink-table {
@@ -1415,7 +1422,7 @@ p {
 }
 
 .single_feature:hover .feature_icon > i {
-  background-color: #141414;
+  
 }
 
 .single-feature-area > i {
@@ -2075,6 +2082,26 @@ p {
   margin-top: 15px;
 }
 
+.owl-prev:before,
+.owl-next:before {
+  content: "\f104";
+  font-family: "fontawesome";
+  font-size: 23px;
+  font-weight: 700;
+  color: #fff;
+}
+.owl-next:before {
+  content: "\f105";
+}
+
+.owl-nav{
+  display: flex;
+  gap:30px ;
+  width: 100%;
+  justify-content: center;
+}
+
+
 .single_cool_fact {
   margin-bottom: 50px;
 }
@@ -2086,8 +2113,8 @@ p {
   margin-bottom: 0;
 }
 #googleMap{
-  width: 60%;
-  
+  width: 100%;
+  height: 250px;
 }
 .cool_fact_icon > i {
   font-size: 48px;
@@ -2381,7 +2408,7 @@ p {
   .social_links_area {
     position: absolute;
     right: 30px;
-    bottom: 270%;
+    bottom: 180%;
   }
 }
 @media (min-width: 1000px) {
